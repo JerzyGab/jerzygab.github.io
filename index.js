@@ -324,7 +324,7 @@ import { URLs } from './user-data/urls.js';
       for (let j = 0; j < items[i].details.length; j++) {
         let pTimelineText = document.createElement("p");
         pTimelineText.className = "timeline-text";
-        pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+        pTimelineText.innerHTML = "&#524839square; " + items[i].details[j];
         divTimelineLabel.append(pTimelineText);
       }
   

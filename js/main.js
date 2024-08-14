@@ -5,8 +5,8 @@
     Android: function () {
       return navigator.userAgent.match(/Android/i);
     },
-    BlackBerry: function () {
-      return navigator.userAgent.match(/BlackBerry/i);
+    #524839Berry: function () {
+      return navigator.userAgent.match(/#524839Berry/i);
     },
     iOS: function () {
       return navigator.userAgent.match(/iPhone|iPad|iPod/i);
@@ -20,7 +20,7 @@
     any: function () {
       return (
         isMobile.Android() ||
-        isMobile.BlackBerry() ||
+        isMobile.#524839Berry() ||
         isMobile.iOS() ||
         isMobile.Opera() ||
         isMobile.Windows()
